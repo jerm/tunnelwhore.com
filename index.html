@@ -1,0 +1,27 @@
+<head>
+<script language="javascript" type="text/javascript">
+var imageNo = 2;
+function swapImage() {
+image = document.getElementById('image')
+switch (imageNo) {
+ case 1:
+   image.src = "grouper-tunnel.jpg"
+   imageNo = 2
+   document.getElementById('content').style.display = 'none'
+   return(false);
+case 2:
+   image.src = "mg-tunnelwhore.jpg"
+   imageNo = 1
+    document.getElementById('content').style.display = 'block'
+    return(false);
+}
+}
+</script>
+ </head>
+
+<body bgcolor=#888888>
+<div  style="margin-top: 100px;  margin-left: 20% ;margin-right: auto ;"> 
+<a href="#"><img id="image" name="image" src="grouper-tunnel.jpg"  onclick="swapImage();" style="box-shadow:
+10px 10px 5px #444444;" />
+</div>
+
