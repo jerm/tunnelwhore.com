@@ -1,28 +1,59 @@
-<head>
-<script language="javascript" type="text/javascript">
-var imageNo = 2;
-function swapImage() {
-image = document.getElementById('image')
-switch (imageNo) {
- case 1:
-   image.src = "grouper-tunnel.jpg"
-   imageNo = 2
-   document.getElementById('content').style.display = 'none'
-   return(false);
-case 2:
-   image.src = "mg-tunnelwhore.jpg"
-   imageNo = 1
-    document.getElementById('content').style.display = 'block'
-    return(false);
-}
-}
-</script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=&#8217;utf-8&#8217;>
+    <title>TunnelBrats</title>
+
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Chivo:900"
+rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/stylesheet.css">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
  </head>
-
 <body bgcolor=#888888>
-<div  style="margin-top: 100px;  margin-left: 20% ;margin-right: auto ;"> 
-<a href="#"><img id="image" name="image" src="grouper-tunnel.jpg"  onclick="swapImage();" style="box-shadow:
-10px 10px 5px #444444;" />
+<div class="content">
+    <div id="container">
+
+        <header>
+          <p align=center><h1>I see tunnelwhores... they&#8217;re everywhere!</h1></p>
+        </header>
+        <p align=center><a href="./index.html" class="reload">Show me abother whore</a></p>
+
+        <section id="main_content">
+      		<script>
+      		<!--
+      			/*
+      			Random Image Script- By JavaScript Kit
+            (http://www.javascriptkit.com)
+      			Over 400+ free JavaScripts here!
+      			Keep this notice intact please
+      			*/
+			(function (){
+				var myimages = [
+					"images/whores/grouper-tunnel.jpg",
+					"images/whores/mg-newsuit1.jpg",
+					"images/whores/mg-tunnelwhore.jpg"
+				];
+				var ry=Math.floor(Math.random()*myimages.length);
+				var imageCount = myimages.length;
+                document.write('<a href="./index.html"><img src="'+myimages[ry]+'" style="box-shadow: 10px 10px 5px #444444;" href="/index.html"></a>');
+                                                })();
+          </script>
+        </section>
+<br/><br/><br/>
+
+          <p>Made with envy by <a href="https://twitter.com/jermops">@jermops</a>. Fork it <a href="https://github.com/jerm/tunnelwhore.com">here</a>. Code borrowed from <a
+					href="https://github.com/snipe/nofuckstogive.today">Snipe</a>. Pull requests and donations are welcome :)</p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----"> <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"><img alt="" 
+					border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></form>
+    </div>
+
 </div>
-
-
+  </body>
+</html>
